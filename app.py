@@ -18,8 +18,8 @@ st.set_page_config(
 # ── Load model and scaler ─────────────────────────────────────
 @st.cache_resource
 def load_assets():
-    model = load_model('btc_lstm_model.h5')
-    with open('btc_scaler.pkl', 'rb') as f:
+    model = load_model("C:\\Users\\mks90\\OneDrive\\Documents\\btc_lstm_model.h5")
+    with open('C:\\Users\\mks90\\OneDrive\\Documents\\btc_scaler.pkl', 'rb') as f:
         scaler = pickle.load(f)
     return model, scaler
 
