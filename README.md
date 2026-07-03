@@ -23,3 +23,12 @@ A deep learning web app that predicts Bitcoin prices using LSTM neural networks 
 - yfinance | Scikit-learn | Plotly | Streamlit
 
 ## 📁 Project Structure
+├── app.py              # Streamlit web app
+├── btc_lstm_model.h5   # Trained LSTM model
+├── btc_scaler.pkl      # MinMaxScaler
+└── requirements.txt    # Dependencies
+
+## ⚠️ Disclaimer
+This is a research/educational project. 
+Not financial advice. Crypto markets 
+are highly volatile and unpredictable.
